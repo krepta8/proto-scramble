@@ -15,7 +15,7 @@ import javafx.beans.property.StringProperty;
 public class Word {
 
 	private StringProperty word = new SimpleStringProperty(this, "word", "");
-	private EnumSet<Roll> rolls = EnumSet.noneOf(Roll.class);
+	private EnumSet<Role> rolls = EnumSet.noneOf(Role.class);
 
 	/**
 	 * @return the word
